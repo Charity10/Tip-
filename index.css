@@ -16,6 +16,9 @@ body {
     border-radius: 35px;
     margin: 10% 35%;
     -webkit-border-radius: 35px;
+    max-width: 1000px;
+    min-width: 450px;
+
 }
 
 .nav{
@@ -34,10 +37,38 @@ body {
     border: 2.5px black solid;
    padding: 15px;
    width: 30%;
-   margin: 10px;
-   border-radius: 5px;
+   margin: 10px 30px;
+   border-radius: 10px;
    font-size: 1.4em;
    font-weight: bold;
    display: block;
    text-transform: uppercase;
+   text-align: center;
+}
+#Calculate:hover{
+    background: white;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+input {
+    width: 30%;
+    height: 40px;
+    border: 1px black solid;
+    font-size: large;
+}
+select {
+    width: 30%;
+    height: 40px;
+    border: 1px black solid;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+#form, #totaltip{
+    margin: 25px;
 }
